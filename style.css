@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(37, 37, 37);
+    color: white; 
+   
+}
+
+
+header {
+    color: whitesmoke;
+    padding: 2em 0;
+    text-align:center;
+    position: relative;
+    max-height: 300px;
+    overflow: hidden;
+
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+   }
+
+ h1{ 
+            font-size: 30px;
+            position: absolute;
+            bottom: 0;
+            color: white;
+            width: 100%;
+            text-align: center;
+            margin: 0;
+            padding: 2em 0;
+        }
+
+header img{
+    width: 100%;
+   }
+
+main {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3em;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section h2 {
+    width: 100%;
+}
+
+section figure {
+    width: 25%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+section figcaption {
+    text-align: center;
+}
+
+section img {
+    width: 100%;
+}
+
+section p {
+    width: 75%;
+}
+
+.iPhone {
+    padding-right: 11%;
+}
+
+.iPad{
+    padding-left: 5%;
+    order: 1;
+}
+
+.iWatch{
+    padding-right: 5%;
+    order:0;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.title-white{
+    color: white;
+    border-bottom: 1px solid whitesmoke
+} 
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+footer h2 {
+    margin-top: 8;
+    margin-bottom: 0em;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 2em;
+}
+
+footer a {
+    color: white;
+}
